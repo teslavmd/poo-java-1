@@ -106,9 +106,9 @@ public class Principal1 extends javax.swing.JFrame {
 
     private void btnConsultaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConsultaActionPerformed
         // TODO add your handling code here:
-        CargarAuto cargarAuto = new CargarAuto();
-        cargarAuto.setVisible(true);
-        cargarAuto.setLocationRelativeTo(null);
+        EditarBorrar pantalla2 = new EditarBorrar();
+        pantalla2.setVisible(true);
+        pantalla2.setLocationRelativeTo(null);
     }//GEN-LAST:event_btnConsultaActionPerformed
 
 
