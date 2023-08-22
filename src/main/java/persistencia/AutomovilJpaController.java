@@ -25,12 +25,13 @@ public class AutomovilJpaController implements Serializable {
     public AutomovilJpaController(EntityManagerFactory emf) {
         this.emf = emf;
     }
-    private EntityManagerFactory emf = null;
     
     public AutomovilJpaController(){
         emf = Persistence.createEntityManagerFactory("AutosPU");
     }
-
+    
+    private EntityManagerFactory emf = null;
+    
     public EntityManager getEntityManager() {
         return emf.createEntityManager();
     }
